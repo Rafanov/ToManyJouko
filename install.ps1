@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 
 $dir = "$env:USERPROFILE\jouko"
-$repo = "GITHUB_USERNAME/REPO_NAME"  # <-- ganti ini
+$repo = "https://github.com/Rafanov/ToManyJouko.git"
 $raw  = "https://raw.githubusercontent.com/$repo/main"
 
 Write-Host "Installing jouko..." -ForegroundColor Cyan
