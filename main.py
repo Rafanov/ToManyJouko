@@ -23,7 +23,10 @@ SCR_W        = 1920
 SCR_H        = 1080
 
 def resource_path(rel):
-    base = getattr(sys, '_MEIPASS', os.path.abspath("."))
+    if hasattr(sys, '_MEIPASS'):
+        base = sys._MEIPASS
+    else:
+        base = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(base, rel)
 
 def rand_pos():
