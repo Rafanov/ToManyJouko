@@ -1,7 +1,7 @@
 # TooManyJouko
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/chara.png" alt="TooManyJouko" width="120" style="border-radius: 16px"/>
+  <img src="https://raw.githubusercontent.com/Rafanov/ToManyJouko/main/chara.png" alt="TooManyJouko" width="120" style="border-radius: 16px"/>
 </p>
 
 <p align="center">
