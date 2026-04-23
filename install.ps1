@@ -12,8 +12,13 @@ Invoke-WebRequest "$raw/main.py"   -OutFile "$dir\main.py"
 Invoke-WebRequest "$raw/chara.png" -OutFile "$dir\chara.png"
 Invoke-WebRequest "$raw/icon.ico"  -OutFile "$dir\icon.ico"
 
+if (!(Get-Command python -ErrorAction SilentlyContinue)) {
+    Write-Host "Python does not exist in your computer system, please install it first." -ForegroundColor Red
+    exit
+}
+
 Write-Host "Installing dependencies..." -ForegroundColor Yellow
-pip install pillow --quiet
+python -m pip install pillow --quiet
 
 Write-Host "Launching jouko..." -ForegroundColor Green
 Start-Process python -ArgumentList "$dir\main.py" -WindowStyle Hidden
