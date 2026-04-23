@@ -146,7 +146,7 @@ This project does **not** contain malicious code of any kind.
 **From source**
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/jouko.git
+https://github.com/Rafanov/ToManyJouko.git
 cd jouko
 
 # Install dependency
