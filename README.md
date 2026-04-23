@@ -158,7 +158,7 @@ python main.py
 
 **One-liner install (Windows PowerShell)**
 ```powershell
-iex (irm "https://raw.githubusercontent.com/Rafanov/ToManyJouko/install.ps1")
+iex (irm "https://raw.githubusercontent.com/Rafanov/ToManyJouko/main/install.ps1")
 ```
 > If you get a script execution error, run this first:
 > ```powershell
